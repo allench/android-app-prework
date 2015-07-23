@@ -28,6 +28,7 @@
         android:layout_toLeftOf="@+id/btnAddItem"
         android:layout_toStartOf="@+id/btnAddItem"
         android:hint="Enter a new item..."
+        android:singleLine="true"
         android:textIsSelectable="false"
         android:textSize="20sp" />
 
@@ -38,7 +39,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text="Add Item"
-        android:onClick="onAddItem"/>
+        android:onClick="onAddItem"
+        android:text="Add Item" />
 
 </RelativeLayout>
