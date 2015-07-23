@@ -75,6 +75,8 @@ public class MainActivity extends ActionBarActivity {
             etNewItem.setText("");
             // save
             writeItems();
+            // make sure scroll to bottom
+            lvItems.smoothScrollToPosition(items.size() - 1);
         }
     }
 
